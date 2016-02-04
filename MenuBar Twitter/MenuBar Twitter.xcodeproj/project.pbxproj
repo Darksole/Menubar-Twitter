@@ -36,15 +36,15 @@
 
 /* Begin PBXFileReference section */
 		CD2BB5B81C4C8E9E00599F76 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		CDF2C7F51C4B834200293307 /* MenuBar Twiter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MenuBar Twiter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF2C7F51C4B834200293307 /* MenuBar Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MenuBar Twitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF2C7F81C4B834200293307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDF2C7FA1C4B834200293307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF2C7FD1C4B834200293307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CDF2C7FF1C4B834200293307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDF2C8041C4B834200293307 /* MenuBar TwiterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MenuBar TwiterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF2C8041C4B834200293307 /* MenuBar Twitter.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MenuBar Twitter.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF2C8081C4B834200293307 /* MenuBar_TwiterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar_TwiterTests.swift; sourceTree = "<group>"; };
 		CDF2C80A1C4B834200293307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDF2C80F1C4B834200293307 /* MenuBar TwiterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MenuBar TwiterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF2C80F1C4B834200293307 /* MenuBar Twitter.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MenuBar Twitter.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF2C8131C4B834200293307 /* MenuBar_TwiterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar_TwiterUITests.swift; sourceTree = "<group>"; };
 		CDF2C8151C4B834200293307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDF2C8211C4C6BD100293307 /* MasterViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewControler.swift; sourceTree = "<group>"; };
@@ -81,9 +81,9 @@
 			isa = PBXGroup;
 			children = (
 				CD2BB5B81C4C8E9E00599F76 /* WebKit.framework */,
-				CDF2C7F71C4B834200293307 /* MenuBar Twiter */,
-				CDF2C8071C4B834200293307 /* MenuBar TwiterTests */,
-				CDF2C8121C4B834200293307 /* MenuBar TwiterUITests */,
+				CDF2C7F71C4B834200293307 /* MenuBar Twitter */,
+				CDF2C8071C4B834200293307 /* MenuBar TwitterTests */,
+				CDF2C8121C4B834200293307 /* MenuBar TwitterUITests */,
 				CDF2C7F61C4B834200293307 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +91,14 @@
 		CDF2C7F61C4B834200293307 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDF2C7F51C4B834200293307 /* MenuBar Twiter.app */,
-				CDF2C8041C4B834200293307 /* MenuBar TwiterTests.xctest */,
-				CDF2C80F1C4B834200293307 /* MenuBar TwiterUITests.xctest */,
+				CDF2C7F51C4B834200293307 /* MenuBar Twitter.app */,
+				CDF2C8041C4B834200293307 /* MenuBar Twitter.xctest */,
+				CDF2C80F1C4B834200293307 /* MenuBar Twitter.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDF2C7F71C4B834200293307 /* MenuBar Twiter */ = {
+		CDF2C7F71C4B834200293307 /* MenuBar Twitter */ = {
 			isa = PBXGroup;
 			children = (
 				CDF2C7F81C4B834200293307 /* AppDelegate.swift */,
@@ -108,33 +108,33 @@
 				CDF2C7FC1C4B834200293307 /* MainMenu.xib */,
 				CDF2C7FF1C4B834200293307 /* Info.plist */,
 			);
-			path = "MenuBar Twiter";
+			path = "MenuBar Twitter";
 			sourceTree = "<group>";
 		};
-		CDF2C8071C4B834200293307 /* MenuBar TwiterTests */ = {
+		CDF2C8071C4B834200293307 /* MenuBar TwitterTests */ = {
 			isa = PBXGroup;
 			children = (
 				CDF2C8081C4B834200293307 /* MenuBar_TwiterTests.swift */,
 				CDF2C80A1C4B834200293307 /* Info.plist */,
 			);
-			path = "MenuBar TwiterTests";
+			path = "MenuBar TwitterTests";
 			sourceTree = "<group>";
 		};
-		CDF2C8121C4B834200293307 /* MenuBar TwiterUITests */ = {
+		CDF2C8121C4B834200293307 /* MenuBar TwitterUITests */ = {
 			isa = PBXGroup;
 			children = (
 				CDF2C8131C4B834200293307 /* MenuBar_TwiterUITests.swift */,
 				CDF2C8151C4B834200293307 /* Info.plist */,
 			);
-			path = "MenuBar TwiterUITests";
+			path = "MenuBar TwitterUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDF2C7F41C4B834200293307 /* MenuBar Twiter */ = {
+		CDF2C7F41C4B834200293307 /* MenuBar Twitter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDF2C8181C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar Twiter" */;
+			buildConfigurationList = CDF2C8181C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar Twitter" */;
 			buildPhases = (
 				CDF2C7F11C4B834200293307 /* Sources */,
 				CDF2C7F21C4B834200293307 /* Frameworks */,
@@ -144,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = "MenuBar Twiter";
+			name = "MenuBar Twitter";
 			productName = "MenuBar Twiter";
-			productReference = CDF2C7F51C4B834200293307 /* MenuBar Twiter.app */;
+			productReference = CDF2C7F51C4B834200293307 /* MenuBar Twitter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CDF2C8031C4B834200293307 /* MenuBar TwiterTests */ = {
+		CDF2C8031C4B834200293307 /* MenuBar TwitterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDF2C81B1C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar TwiterTests" */;
+			buildConfigurationList = CDF2C81B1C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar TwitterTests" */;
 			buildPhases = (
 				CDF2C8001C4B834200293307 /* Sources */,
 				CDF2C8011C4B834200293307 /* Frameworks */,
@@ -162,14 +162,14 @@
 			dependencies = (
 				CDF2C8061C4B834200293307 /* PBXTargetDependency */,
 			);
-			name = "MenuBar TwiterTests";
+			name = "MenuBar TwitterTests";
 			productName = "MenuBar TwiterTests";
-			productReference = CDF2C8041C4B834200293307 /* MenuBar TwiterTests.xctest */;
+			productReference = CDF2C8041C4B834200293307 /* MenuBar Twitter.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CDF2C80E1C4B834200293307 /* MenuBar TwiterUITests */ = {
+		CDF2C80E1C4B834200293307 /* MenuBar TwitterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDF2C81E1C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar TwiterUITests" */;
+			buildConfigurationList = CDF2C81E1C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar TwitterUITests" */;
 			buildPhases = (
 				CDF2C80B1C4B834200293307 /* Sources */,
 				CDF2C80C1C4B834200293307 /* Frameworks */,
@@ -180,9 +180,9 @@
 			dependencies = (
 				CDF2C8111C4B834200293307 /* PBXTargetDependency */,
 			);
-			name = "MenuBar TwiterUITests";
+			name = "MenuBar TwitterUITests";
 			productName = "MenuBar TwiterUITests";
-			productReference = CDF2C80F1C4B834200293307 /* MenuBar TwiterUITests.xctest */;
+			productReference = CDF2C80F1C4B834200293307 /* MenuBar Twitter.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CDF2C7F01C4B834200293307 /* Build configuration list for PBXProject "MenuBar Twiter" */;
+			buildConfigurationList = CDF2C7F01C4B834200293307 /* Build configuration list for PBXProject "MenuBar Twitter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDF2C7F41C4B834200293307 /* MenuBar Twiter */,
-				CDF2C8031C4B834200293307 /* MenuBar TwiterTests */,
-				CDF2C80E1C4B834200293307 /* MenuBar TwiterUITests */,
+				CDF2C7F41C4B834200293307 /* MenuBar Twitter */,
+				CDF2C8031C4B834200293307 /* MenuBar TwitterTests */,
+				CDF2C80E1C4B834200293307 /* MenuBar TwitterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		CDF2C8061C4B834200293307 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CDF2C7F41C4B834200293307 /* MenuBar Twiter */;
+			target = CDF2C7F41C4B834200293307 /* MenuBar Twitter */;
 			targetProxy = CDF2C8051C4B834200293307 /* PBXContainerItemProxy */;
 		};
 		CDF2C8111C4B834200293307 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CDF2C7F41C4B834200293307 /* MenuBar Twiter */;
+			target = CDF2C7F41C4B834200293307 /* MenuBar Twitter */;
 			targetProxy = CDF2C8101C4B834200293307 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -393,10 +393,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "MenuBar Twiter/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MenuBar Twitter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.MenuBar-Twiter";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MenuBar Twitter";
 			};
 			name = Debug;
 		};
@@ -405,10 +405,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "MenuBar Twiter/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MenuBar Twitter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.MenuBar-Twiter";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MenuBar Twitter";
 			};
 			name = Release;
 		};
@@ -420,8 +420,8 @@
 				INFOPLIST_FILE = "MenuBar TwiterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.MenuBar-TwiterTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuBar Twiter.app/Contents/MacOS/MenuBar Twiter";
+				PRODUCT_NAME = "MenuBar Twitter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuBar Twitter.app/Contents/MacOS/MenuBar Twitter";
 			};
 			name = Debug;
 		};
@@ -433,8 +433,8 @@
 				INFOPLIST_FILE = "MenuBar TwiterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.MenuBar-TwiterTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuBar Twiter.app/Contents/MacOS/MenuBar Twiter";
+				PRODUCT_NAME = "MenuBar Twitter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuBar Twitter.app/Contents/MacOS/MenuBar Twitter";
 			};
 			name = Release;
 		};
@@ -445,7 +445,7 @@
 				INFOPLIST_FILE = "MenuBar TwiterUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.MenuBar-TwiterUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MenuBar Twitter";
 				TEST_TARGET_NAME = "MenuBar Twiter";
 				USES_XCTRUNNER = YES;
 			};
@@ -458,7 +458,7 @@
 				INFOPLIST_FILE = "MenuBar TwiterUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.MenuBar-TwiterUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MenuBar Twitter";
 				TEST_TARGET_NAME = "MenuBar Twiter";
 				USES_XCTRUNNER = YES;
 			};
@@ -467,7 +467,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDF2C7F01C4B834200293307 /* Build configuration list for PBXProject "MenuBar Twiter" */ = {
+		CDF2C7F01C4B834200293307 /* Build configuration list for PBXProject "MenuBar Twitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDF2C8161C4B834200293307 /* Debug */,
@@ -476,7 +476,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDF2C8181C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar Twiter" */ = {
+		CDF2C8181C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar Twitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDF2C8191C4B834200293307 /* Debug */,
@@ -485,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDF2C81B1C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar TwiterTests" */ = {
+		CDF2C81B1C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar TwitterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDF2C81C1C4B834200293307 /* Debug */,
@@ -494,7 +494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDF2C81E1C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar TwiterUITests" */ = {
+		CDF2C81E1C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar TwitterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDF2C81F1C4B834200293307 /* Debug */,

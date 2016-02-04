@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CDF2C7F41C4B834200293307"
-               BuildableName = "MenuBar Twiter.app"
-               BlueprintName = "MenuBar Twiter"
-               ReferencedContainer = "container:MenuBar Twiter.xcodeproj">
+               BuildableName = "MenuBar Twitter.app"
+               BlueprintName = "MenuBar Twitter"
+               ReferencedContainer = "container:MenuBar Twitter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CDF2C8031C4B834200293307"
-               BuildableName = "MenuBar TwiterTests.xctest"
-               BlueprintName = "MenuBar TwiterTests"
-               ReferencedContainer = "container:MenuBar Twiter.xcodeproj">
+               BuildableName = "MenuBar Twitter.xctest"
+               BlueprintName = "MenuBar TwitterTests"
+               ReferencedContainer = "container:MenuBar Twitter.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CDF2C80E1C4B834200293307"
-               BuildableName = "MenuBar TwiterUITests.xctest"
-               BlueprintName = "MenuBar TwiterUITests"
-               ReferencedContainer = "container:MenuBar Twiter.xcodeproj">
+               BuildableName = "MenuBar Twitter.xctest"
+               BlueprintName = "MenuBar TwitterUITests"
+               ReferencedContainer = "container:MenuBar Twitter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CDF2C7F41C4B834200293307"
-            BuildableName = "MenuBar Twiter.app"
-            BlueprintName = "MenuBar Twiter"
-            ReferencedContainer = "container:MenuBar Twiter.xcodeproj">
+            BuildableName = "MenuBar Twitter.app"
+            BlueprintName = "MenuBar Twitter"
+            ReferencedContainer = "container:MenuBar Twitter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CDF2C7F41C4B834200293307"
-            BuildableName = "MenuBar Twiter.app"
-            BlueprintName = "MenuBar Twiter"
-            ReferencedContainer = "container:MenuBar Twiter.xcodeproj">
+            BuildableName = "MenuBar Twitter.app"
+            BlueprintName = "MenuBar Twitter"
+            ReferencedContainer = "container:MenuBar Twitter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CDF2C7F41C4B834200293307"
-            BuildableName = "MenuBar Twiter.app"
-            BlueprintName = "MenuBar Twiter"
-            ReferencedContainer = "container:MenuBar Twiter.xcodeproj">
+            BuildableName = "MenuBar Twitter.app"
+            BlueprintName = "MenuBar Twitter"
+            ReferencedContainer = "container:MenuBar Twitter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
